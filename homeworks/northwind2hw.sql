@@ -16,7 +16,7 @@
 
 --1
 SELECT * FROM orders
-WHERE ship_country = 'France' OR country = 'Austria' OR country = 'Spain'
+WHERE ship_country = 'France' OR ship_country = 'Austria' OR ship_country = 'Spain'
 -Либо можно
 SELECT * FROM orders
 WHERE ship_country IN('France','Austria','Spain')
